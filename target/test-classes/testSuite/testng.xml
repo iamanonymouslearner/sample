@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="Sample" verbose="1" >
+  <test name="Regression" >
+    <classes>
+       <class name="com.example.api.Service1" />
+       <class name="com.example.api.Service2" />
+       <class name="com.example.api.Service3" />
+    </classes>
+  </test>
+</suite>
