@@ -42,7 +42,7 @@ public static ExtentTest ChildTest;
   @BeforeSuite
   public void beforeSuite() 
   {
-	    htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir") +"/test-output/extentReport.html");
+	    htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir") +"/Results/extentReport.html");
 	    extent = new ExtentReports();
 	    extent.attachReporter(htmlReporter);
 
